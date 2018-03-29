@@ -21,5 +21,7 @@ if (!empty($bot->isEvents)) {
 	// Failed
 	echo $bot->response->getHTTPStatus . ' ' . $bot->response->getRawBody(); 
 	exit();
+else 
+	echo "Failed";
 
 }
